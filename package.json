@@ -1,0 +1,13 @@
+{
+  "name": "usestormline-api-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.26.1",
+  "scripts": {
+    "typecheck": "tsc --build && pnpm --filter @usestormline/api typecheck",
+    "build": "pnpm --filter @usestormline/api build"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

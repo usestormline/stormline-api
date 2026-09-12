@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./lib/db"
+    },
+    {
+      "path": "./lib/api-zod"
+    },
+    {
+      "path": "./artifacts/api-server"
+    }
+  ]
+}

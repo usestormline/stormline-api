@@ -1,0 +1,6 @@
+title = "Stormline public repository secret policy"
+[extend]
+useDefault = true
+[allowlist]
+description = "Synthetic Ethereum null/example addresses"
+regexes = ['0x0{39}[01]']
